@@ -57,6 +57,7 @@ class AlgoHashTable:
 
 
 hash_table = AlgoHashTable(256)
+
 with open("data.txt") as f:
     for line in f:
         key, value = line.split(":")
